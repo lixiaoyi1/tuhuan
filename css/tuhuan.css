@@ -1,0 +1,515 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+.gx-nav{
+    border: none;
+    border-radius: 0;
+    margin-bottom: 0;
+    background-color: #fff;
+}
+.navbar-brand>a.img{
+    background-repeat: no-repeat;
+    background-image: url(../images/logo.svg);
+    background-size: 33px 33px;
+    height: 33px;
+    width: 33px;
+    float: left;
+}
+.gx-nav .navbar-nav{
+    text-align: center;
+}
+.gx-nav .navbar-nav > li {
+    padding-top: 10px ;
+
+}
+.gx-nav .navbar-nav > li > a{
+    padding: 18px 30px 5px !important;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333;
+}
+.gx-nav .navbar-nav > li > button{
+    color: #3bbe7a;
+    background-color: transparent;
+    border: 1px solid #3bbe7a;
+    font-size: 12px;
+    padding: 6px 25px;
+    border-radius: 2px;
+    display: inline-block;
+    margin-top: 12px;
+}
+.gx-nav .navbar-nav > li > button:hover{
+    color: #fff;
+    background-color: #3bbe7a;
+    border:1px solid #3bbe7a;
+}
+.gx-nav .navbar-nav > li span{
+    display: block;
+    color: black;
+    width: 18px;
+    height: 1px;
+    margin: auto;
+    z-index: 88;
+}
+.modal-dialog .modal-body{
+    text-align: center;
+    padding: 50px 15px 70px !important;
+}
+.modal-dialog .modal-header{
+    border-bottom: none;
+}
+.modal-dialog .modal-body a{
+    display:inline-block;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    margin-bottom: 30px;
+    border: 1px solid rgba(170, 170, 170, 0.3);
+}
+.modal-dialog .modal-body a img{
+    width: 100%;  
+    vertical-align: middle;  
+}
+.modal-dialog .modal-body p{
+    color: #666;
+    font-size: 16px;
+    line-height: 1.45;
+}
+
+
+/*选中效果*/
+.gx-nav .navbar-nav > li.active > a{
+
+    color: #3bbe7a;
+}
+.gx-nav .navbar-nav > li > a:hover{
+    background-color: white;
+}
+/*三横杠*/
+.gx-nav .navbar-toggle {
+    margin-top: 14px;
+}
+.gx-nav .navbar-toggle .icon-bar {
+    background-color: #3bbe7a;
+}
+.gx-nav .navbar-collapse {
+    border-color: #e7e7e7;
+}
+.slider .title{
+    padding-top: 100px;
+    text-align: center;
+}
+.slider h1{
+    position: absolute;
+    left: 25%;
+    top: 100px;
+    color:white;
+    font-size: 16px;
+    font-weight: normal;
+}
+.slider p{
+    position: absolute;
+    left: 23%;
+    top: 150px;
+    color:white;
+    font-size: 10px;
+    font-weight: normal;
+}
+.slider{
+    height: 220px;
+}
+.slider .pic{
+    background-image: url(../images/aboutus-banner1-2x-small.jpg) ;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+.title{
+    margin-top: 50px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+.title h2{
+    color: #333;
+    font-size: 24px;
+    font-weight: normal;
+
+}
+.title span{
+    border-top: 1px solid #3bbe7a;
+    width: 30px;
+    margin:auto;
+    display: inline-block;
+}
+.title p{
+    margin-top: 40px;
+    line-height: 25px;
+    font-size: 14px;
+    color: #666;
+}
+.center{
+    text-align: center;
+    overflow: hidden;
+    background-color: rgba(59,190,122,.8);
+    color: rgba(255,255,255,.8);
+    border-radius: 2px;
+    padding: 18% 10%;
+    margin-bottom: 20px;
+    min-height: 328px;
+}
+.center a.img img{
+    display: inline-block;
+    width: 110px;
+    height: 110px;
+} 
+.center h4{
+    margin-top: 20px;
+    font-size: 18px;
+}
+.team {
+    background-color: #eeefe9;
+}
+.team .title{
+    background-color: #f8f8f8;
+}
+.center a img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+.container_person{
+    padding: 60px;
+}
+
+.person{
+    z-index: 4;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    color: rgba(255,255,255,.8);
+    border-radius: 2px;
+    background-color: white;
+    transition: all .3s ease-in-out;
+}
+.person a.img{
+    display: inline-block;
+}
+.person a.img img{
+    max-width: 100%;
+}
+.person h4{
+    color: #333;
+    font-size: 18px;
+    font-weight: normal;
+}
+.person p{
+    color: #aaa;
+    font-size: 14px;
+    margin-top: -5px;
+}
+.person:hover{
+    opacity: .1;
+}
+.slideup{
+    background-color: #fff;
+    z-index: 3;
+    position: absolute;
+    left: 10%;
+    top: 5%;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    width: 80%;
+    height: 90%;
+}
+.slideup .slideup_bg{
+    border: 4px solid rgba(59, 190, 122,.7);
+    height: 100%;
+}
+.slideup h2{
+    margin-top: 45px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #333;
+}
+.slideup h4{
+    font-size: 12px;
+    color: #aaa;
+    margin-top: 5%;
+}
+.slideup span{
+    border-top: 1px solid #3bbe7a;
+    width: 70px;
+    margin:auto;
+    display: inline-block;
+}
+.slideup p{
+    line-height: 26px;
+    color: #666;
+    font-size: 14px;
+}
+.daifu{
+    text-align: center;
+    overflow: hidden;
+    background-color: rgba(59,190,122,.8); 
+    min-height: 149px;
+}
+.daifu a.pic{
+    display:none;
+    width: 64px;
+    height: 64px;
+    margin-top: 10px;
+}
+.daifu a.pic img{
+    max-width: 100%;
+}
+.daifu a.img{
+    display: inline-block;
+}
+.daifu a.img img{
+    max-width: 100%;
+}
+.daifu h4{
+    color: #fff;
+    font-size: 18px;
+    margin: 9% 0 5%;
+}
+.daifu p{
+    font-size: 14px;
+    color: rgba(255,255,255,.8);
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.content{
+    background: url(../images/about-yuanjing.jpg);
+    background-size: cover ;
+    background-position: 50% 50% ;
+    height: 260px !important;
+    text-align: center;
+}
+.content a{
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image: url(../images/lthyj-ogo.svg);
+    background-size: 60px 60px;
+    height: 60px;
+    width: 60px;
+    margin-top: 20px;
+}
+.content p{
+    line-height: 24px;
+    margin-top: 3.2%;
+    text-align: center;
+    color: rgba(255,255,255,.8);
+}
+
+.footer ul{
+    display: none;
+}
+.footer p{
+    text-align: center;
+    color: rgba(102,102,102,.8);
+    padding: 16.5px 0;
+    background-color: #333;
+    font-size: 10px;
+}
+/* 中等屏幕 */
+@media screen and (min-width:550px){
+    .navbar-brand{
+        background-color: rgba(59,190,122,.9);
+        width: 130px;
+        height: 80px;
+        padding-top: 10px;
+        padding-left: 22px;
+        text-align: center;
+    }
+    .gx-nav .navbar-brand a.img{
+        /* width: 300px; */
+        display: inline-block;
+        background-image: url(../images/logo-pc.svg);
+        background-repeat: no-repeat;
+        background-size: 80px 56px;
+        width: 80px;
+        height: 56px;
+        margin: 0 auto;
+        background-position: center;
+        text-align: center;
+    }
+    .gx-nav .navbar-nav > li > a{
+        padding-left:20px;
+        padding-right:20px;
+
+    }
+    .slider{
+        height: 590px;
+    }
+    .slider .pic{
+        background-image: url(../images/about-us-banner-app.jpg);
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .slider .title{
+        padding-top: 100px;
+        text-align: center;
+    }
+    .slider h1{
+        position: absolute;
+        left: 25%;
+        top: 260px;
+        color:white;
+        font-size: 36px;
+        font-weight: normal;
+    }
+    .slider p{
+        position: absolute;
+        left: 35%;
+        top: 330px;
+        color:white;
+        font-size: 14px;
+        font-weight: normal;
+    }
+    
+}
+@media screen and (min-width:768px){
+    .daifu{
+        min-height: 259px;
+        height: 100%;
+    }
+    .inner{
+        display: flex !important;
+        width: 100%;
+    }
+    .daifu a.pic{
+        display: inline-block;
+    }
+    .content{
+        background-position: 0% 50%;
+
+        height: 420px !important;
+    }
+    .content a{
+        background-size: 100px 100px;
+        height: 100px;
+        width: 100px;
+        margin-top: 9%;
+    }
+    .footer{
+        background-color: #333;
+        padding: 46.5px 0;   
+    }
+    .footer ul{
+        display: block;
+        list-style: none;
+        float: left;
+    }
+    .footer ul li{
+        
+        float: left;
+    }
+    .footer ul li a{
+        margin-right: 15px;
+        padding-left: 15px;
+        white-space: nowrap;
+        color: rgba(170,170,170,.8);
+        text-decoration: none;
+        float: left;
+    }
+    .footer ul li a:hover{
+        text-decoration: underline;
+        color: #aaa;
+    }
+    .footer ul li span{
+        width: 1px;
+        height: 10px;
+        border-right: 1px solid rgba(170,170,170,.5);
+        margin-top: 6px;
+        float: left;
+    }
+    .footer p{
+        margin-left: -362px;
+        display: inline-block;
+        margin-top: 30px;
+        font-size: 12px;
+        color: rgba(102,102,102,.8);
+    }
+    .shouji{
+        display: block;
+        float: right;
+        position: relative;
+        margin-right: 90px;
+    }
+    .weixin{
+        margin-right: 20px;
+    }
+    .shouji a.img{
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-image: url(../images/shouji-logo-icon.svg);
+        background-size: 42px 42px;
+        height: 42px;
+        width: 42px;
+        opacity: .8;
+        cursor: pointer;
+        margin: 0;
+    }
+    .shouji:hover .erweima{
+        opacity: 1;
+    }
+    .shouji .erweima{
+        opacity: 0;
+        position: absolute;
+        top: -200px;
+        left: -68px;
+        width: auto;
+        background-color: #fff;
+        padding: 15px;
+        border-radius: 4px;
+        box-shadow: none;
+        box-shadow: 0 5px 10px rgba(0,0,0,.2);
+        border: none;
+        transition: all .5s ease-in-out;
+    }
+    .shouji .erweima .photo{
+        background-repeat: no-repeat;
+        background-image: url(../images/erweima-app.svg);
+        background-size: 160px 160px;
+        height: 160px;
+        width: 160px;
+        transition: all .3s ease-in-out;
+    }
+    .weixin a.img{
+        background-image: url(../images/wewix-ico.svg);
+    }
+}
+@media screen and (min-width:997px){
+    .daifu a.pic{
+        display: inline-block;
+        margin-top: 20%;
+    }
+}
+@media screen and (min-width:1040px){
+    .slider .pic{
+        background-image: url(../images/about-us-banner.jpg);
+    }
+    .slider h1{
+        font-size: 54px;
+        top: 300px;
+    }
+    .slider p{
+        font-size: 20px;
+        top: 400px;
+    }
+}
